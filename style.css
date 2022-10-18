@@ -21,3 +21,45 @@ h1, h2, h3 {
 h1 {
     font-weight: 700;
 }
+
+#jogo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.quest {
+    background-color: rgb(80, 80, 80);
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin: 30px;
+}
+.enunciado {
+    color: whitesmoke;
+    margin-top: 0;
+}
+.img-ctn {
+    margin: 15px;
+}
+.imagem {
+    width: 350px;
+}
+#jogo .opcao {
+    padding: 15px 25px;
+    font-size: 18px;
+    margin: 10px;
+    transition: 0.4s;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.opcao:hover {
+    background-color: rgb(158, 158, 158);
+}
+.opcao.certa:focus {
+    background-color: rgb(100, 202, 100);
+}
+.opcao.errada:focus {
+    background-color: rgb(238, 97, 97);
+}
